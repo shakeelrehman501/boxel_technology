@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Boxel Technology
 
-## Getting Started
+A modern, responsive corporate website developed for Boxel Technology to showcase its digital and creative services through a professional and engaging web experience.
 
-First, run the development server:
+## Live Website
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+https://www.boxeltechnology.com/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Boxel Technology is a professional business website designed to present a range of technology and creative services in a clear, modern, and user-friendly interface.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project was developed with a focus on responsive design, reusable components, maintainable architecture, performance, and a consistent user experience across different devices.
 
-## Learn More
+The website includes dedicated sections and pages for the company's services, portfolio, company information, and contact information.
 
-To learn more about Next.js, take a look at the following resources:
+## Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Fully responsive design for desktop, tablet, and mobile devices
+- Modern and professional user interface
+- Component-based architecture
+- Reusable React components
+- Dedicated About, Portfolio, and Contact pages
+- Structured service sections
+- Responsive navigation
+- Clean page layouts and content hierarchy
+- Optimized static assets
+- Scalable project structure
+- SEO-friendly application structure
+- Mobile-friendly user experience
+- Production-ready Next.js architecture
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Services Presented
 
-## Deploy on Vercel
+The website presents various digital and creative services, including:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Web Development
+- App Development
+- UI/UX Design
+- Graphic Design
+- 3D Modeling
+- Game Development
+- 3D Printing
+- Digital and Creative Solutions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Technology Stack
+
+The project was built using the following technologies:
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
+
+## Project Architecture
+
+The application uses the Next.js App Router and follows a modular component-based architecture.
+
+The project structure separates routing, reusable components, hooks, icons, utilities, and static assets to keep the codebase organized and maintainable.
+
+## Project Structure
+
+```text
+project-root/
+├── public/
+│   └── Static assets and publicly accessible files
+│
+├── src/
+│   ├── app/
+│   │   ├── (main)/
+│   │   │   ├── about/
+│   │   │   ├── contact/
+│   │   │   └── portfolio/
+│   │   │
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   │
+│   ├── components/
+│   │   ├── MyComponents/
+│   │   ├── navbar/
+│   │   ├── service/
+│   │   └── ui/
+│   │
+│   ├── hooks/
+│   ├── icons/
+│   └── lib/
+│
+├── package.json
+├── tsconfig.json
+└── ...
